@@ -5,12 +5,13 @@ This project is a simple brute force password cracker implemented in Python usin
 GUI for user interaction
 Input validation for max length and target password
 Checks for the password in a common passwords file (common.txt)
+---Ensure the common.txt file is present in the same directory as the script.---
 Brute force search with adjustable maximum length
 User notifications for the password search process and results
 
 # Usage
 Navigate to the project directory.
-Ensure the common.txt file is present in the same directory as the script. You can create a simple common.txt file if not already available.
+You can create a simple common.txt file if not already available.
 Run the script using Python:
 
 bash
