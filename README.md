@@ -30,7 +30,7 @@ brute_force(target_pass, max_length)
 Attempts to brute force the target password by generating all possible combinations of characters up to the specified maximum length.
 
 # Limitations
-* Time taken to crack the password increases drastically after the max length exceeds 4
+* Time taken to crack the password increases exponentially as the maximum lnegth increases, hence it takes a lot of time as max length exceeds 4.
 
 # License
 This project is licensed under the MIT License. See the LICENSE file for details.
