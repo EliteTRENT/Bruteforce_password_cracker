@@ -11,12 +11,7 @@ This project is a simple brute force password cracker implemented in Python usin
 # Usage
 Navigate to the project directory.
 You can create a simple common.txt file if not already available.
-Run the script using Python:
-
-bash
-Copy code
-python password_cracker.py
-The application window will appear.
+Run the code:
 
 Enter the maximum length for the brute force password attempts.
 
@@ -34,7 +29,12 @@ Checks if the target password exists in the common.txt file. If not found, initi
 brute_force(target_pass, max_length)
 Attempts to brute force the target password by generating all possible combinations of characters up to the specified maximum length.
 
+# Cons
+Time taken to crack the password increases drastically after the max length exceeds 4
+
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+
 
 
