@@ -29,10 +29,10 @@ Checks if the target password exists in the common.txt file. If not found, initi
 brute_force(target_pass, max_length)
 Attempts to brute force the target password by generating all possible combinations of characters up to the specified maximum length.
 
-# Cons
-Time taken to crack the password increases drastically after the max length exceeds 4
+# Limitations
+* Time taken to crack the password increases drastically after the max length exceeds 4
 
-License
+# License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 
